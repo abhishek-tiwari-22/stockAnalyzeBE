@@ -10,7 +10,7 @@ spring:
   data:
     mongodb:
 #      uri: mongodb://localhost:27017/stockAnalysis
-      uri: mongodb+srv://tiwariabhishek22at:qbyBcDymdEPck6N4@stockanalysis.guhscse.mongodb.net/?retryWrites=true&w=majority&ssl=true&tlsAllowInvalidCertificates=true
+      uri: mongodb+srv://tiwariabhishek22at:qbyBcDymdEPck6N4@stockanalysis.guhscse.mongodb.net/stockAnalysis?retryWrites=true&w=majority&ssl=true&tlsAllowInvalidCertificates=true
   jackson:
     time-zone: Asia/Kolkata
     date-format: yyyy-MM-dd HH:mm:ss
