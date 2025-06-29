@@ -17,7 +17,7 @@ spring:
     date-format: yyyy-MM-dd HH:mm:ss
 
 app:
-  jwtSecret: bXlWZXJ5TG9uZ0FuZFNlY3VyZVNlY3JldEtleVRoYXRJc0F0TGVhc3QyNTZCaXRzTG9uZw==bXlWZXJ5TG9uZ0FuZFNlY3VyZVNlY3JldEtleVRoYXRJc0F0TGVhc3QyNTZCaXRzTG9uZw==
+  jwtSecret: bXlWZXJ5TG9uZ0FuZFNlY3VyZVNlY3JdEtleVRoYXRJc0F0TGVhc3QyNTZCaXRzTG9uZw==
   jwtExpirationInMs: 604800000
 
 logging:
