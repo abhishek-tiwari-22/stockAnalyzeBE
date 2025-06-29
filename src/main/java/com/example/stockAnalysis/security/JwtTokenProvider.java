@@ -11,7 +11,7 @@ import java.util.Date;
 @Component
 public class JwtTokenProvider {
 
-    @Value("${app.jwtSecret:mySecretKey}")
+    @Value("${app.jwtSecret:myVeryLongAndSecureSecretKeyThatIsAtLeast256BitsLongForJWTSecurity12345}")
     private String jwtSecret;
 
     @Value("${app.jwtExpirationInMs:604800000}")
